@@ -1,0 +1,39 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+#todo {padding: 5px; margin-left: 25px; margin-top: 25px;}
+#todo::placeholder{font-family: serif; font-style: italic;}
+
+#btn {
+    padding: 8px;
+    background: green;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-family: serif;
+    text-transform: capitalize;
+    font-size: 14px;
+    margin: 10px;
+}
+
+#btn:hover{cursor: pointer;}
+
+#app ul {list-style: none;}
+
+#app ul li {
+    font-size: 18px;
+    margin-bottom: 5px;
+    font-style: italic;
+}
+
+#app ul li::first-letter{text-transform: capitalize;}
+
+#app ul li a {
+    color: red;
+    margin-left: 100px;
+    text-decoration: none;
+}
+
+#app ul li a:hover{text-decoration: underline;}
